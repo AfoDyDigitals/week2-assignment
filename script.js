@@ -9,3 +9,10 @@ return a - b;
 
 //Invoke subtraction function to run the calculator
 console.log(subtraction());
+
+
+
+//Loop section
+let input = 30
+for (let i = 1; i<=input; i++);
+console.log(i);
