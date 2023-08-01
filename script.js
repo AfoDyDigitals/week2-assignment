@@ -14,10 +14,12 @@ console.log(subtraction());
 
 //Create an array of numbers
 let array = [1, 3, 4, 8, 11, 12, 15, 16, 17, 20]
-//
+//create variables to accept array as the input
 let input = array
+//create condition
 for (let i=1; i<=input.length; i++) {
     if(i%2 === 0){
-        console.log(i);
+       //invoke input to generate even numbers 
+       console.log(i);
     }
 }
